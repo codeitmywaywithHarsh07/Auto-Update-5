@@ -1,5 +1,5 @@
-const { app, BrowserWindow, dialog } = require('electron');
-const {autoUpdater} = require('electron-updater');
+const { app, BrowserWindow, dialog, autoUpdater} = require('electron');
+// const {autoUpdater} = require('electron-updater');
 const path = require('node:path');
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
